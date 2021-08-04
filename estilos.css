@@ -419,10 +419,8 @@ display: none;
     }
     
     #ad3{
-
-    height:120px;
-    width: 240px;
-    display: center;
+        
+    display: block;
     margin-top: 300px;
 
 }
