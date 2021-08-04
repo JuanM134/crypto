@@ -395,7 +395,7 @@ html, body{
     
     #nav ul li a{
     
-        font-size: 9px;
+        font-size: 9.5px;
         text-align: center;
     
     }
@@ -422,7 +422,7 @@ display: none;
 
     height:120px;
     width: 240px;
-    float: right;
+    display: center;
     margin-top: 30px;
     margin-left: 50px;
     margin-right: 50px;
