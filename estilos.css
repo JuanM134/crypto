@@ -1,0 +1,448 @@
+html, body{
+
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    scroll-behavior: smooth;
+}
+
+#contenedor{
+
+    width: 100%;
+    height: 100%;
+    margin: 0 0 0 0;
+
+}
+
+#crypto{
+
+    display: block;
+    float: left;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+#nav{
+    z-index: 2;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    line-height: 22px;
+    position: fixed;
+    top: 0;
+}
+
+#nav ul{
+
+    padding-left: 60%;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+
+#nav ul li a{
+
+    display: block;
+    color:rgb(255, 255, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
+
+
+
+#criptos{
+
+    z-index: -1;
+    text-align: center;
+    height: 800px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    margin-top: 0px;
+    color: rgba(0, 0, 0, 0.205);
+
+}
+
+#pag1{
+
+    z-index: 1;
+    height: 800px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, 0.527);
+    margin-bottom: -5%;
+    
+    
+}
+
+#titulo{
+
+    text-align: center;
+    padding-top: 12%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+
+}
+
+.parrafo1{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align:justify;
+    text-align-last: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 16.3px;
+
+}
+
+#pag2{
+
+    height: 800px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    background-size: 100% 100%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    margin-bottom: -5%;
+    
+}
+
+#titulo2{
+
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+
+}
+
+.parrafo2{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align:justify;
+    text-align-last: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 16.3px;
+
+}
+
+#pag3{
+
+    z-index: 1;
+    height: 800px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.527);
+    background-size: 100% 100%;
+    text-align: center;
+    margin-bottom: -5%;
+    
+    
+}
+
+
+#ad3{
+
+    height:120px;
+    width: 240px;
+    float: right;
+    margin-top: 200px;
+    margin-right: 20px;
+
+}
+
+#titulo3{
+
+    text-align: center;
+    padding-top: 6%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+
+}
+
+.parrafo3{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align:justify;
+    text-align-last: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 16.3px;
+
+}
+
+#pag4{
+
+    height: 800px;
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+    background-size: 100% 100%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    margin-bottom: -5%;
+    
+}
+
+#titulo4{
+
+    text-align: center;
+    padding-top: 6%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+
+}
+
+.parrafo4{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align:justify;
+    text-align-last: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 16.3px;
+
+}
+
+
+
+.list-group{
+
+
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.list-group-item{
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-seriff;
+    text-align:justify;
+    text-align-last: left;
+
+}
+
+.bitcoin{
+
+    width: 40px;
+    height: 40px;
+    margin-left: 50px;
+
+}
+
+.ethereum{
+
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+
+}
+
+.litecoin{
+
+    width: 40px;
+    height: 40px;
+    margin-left: 40px;
+
+}
+
+.ripple{
+
+    width: 40px;
+    height: 40px;
+    margin-left: 55px;
+
+}
+
+.bitcoincash{
+
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+
+}
+
+.dogecoin{
+
+    width: 40px;
+    height: 40px;
+    margin-left: 35px;
+
+}
+
+#pag5{
+
+    z-index: 1;
+    height:780px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.527);
+    background-size: 100% 100%;
+    margin-bottom: -5%;
+    
+
+}
+
+#titulo5{
+
+    text-align: center;
+    padding-top: 1%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+
+}
+
+
+.parrafo7{
+
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(252, 252, 252);
+    text-align:justify;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 16.3px;
+
+}
+
+.caja-texto{
+    width:250px;
+    border-radius: 5px;
+    height: 35px;
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.label-texto{
+    color: rgb(255, 255, 255);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top:15px;
+    margin-top: 10px;
+    
+ }
+.text-area{
+    width:250px;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-top: 10px;
+    height: 150px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.boton{
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 45px;
+    width: 140px;
+    margin-top: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.boton:hover{
+    border-radius: 5px;
+    background-color:rgb(83, 83, 83);
+    color:rgb(252, 252, 252);
+    height: 35px;
+    width: 120px;
+}
+
+#pie{
+
+    height: 13.4%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    background-size: 100% 100%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    padding-top: 30px;
+
+}
+
+@media(max-width:600px){
+
+    #nav ul{
+
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        justify-content: center;
+    
+    }
+    
+    #nav ul li{
+    
+        display: block;
+        width:auto;
+        float: right;
+        font-size: 13.1px;
+        text-align: center;
+    
+    }
+
+    .dropdown{
+
+display: none;
+
+}
+
+    #crypto{
+
+        display: none ;
+
+    }
+
+    #criptos{
+
+        width:fit-content;
+        height: auto;
+    }
+    
+    #pag2{
+
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    #ad1{
+
+        display: none;
+
+    }
+
+    #pag3{
+
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    #titulo3{
+
+        padding-top: -20px;
+    }
+
+    #pie{
+
+        height: 11%;
+       
+    }
+    
+}
+
